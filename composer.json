@@ -1,0 +1,20 @@
+{
+    "name": "fabiojr933/php-flash-messages",
+    "description": "Uma abordagem moderna para mensagens flash baseadas em sessão PHP.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fabiojr933\\PhpFlashMessages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabio Pereira",
+            "email": "fabiojr933@gmail.com"
+        }
+    ]
+}
