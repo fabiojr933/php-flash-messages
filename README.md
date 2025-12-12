@@ -22,8 +22,7 @@ $flash = new Messages();
 public function store()
 {
     $flash->setFlash('success', 'Operação realizada com sucesso!');
-    $flash->setFlash('error', 'Ocorreu um erro inesperado!');
-    flash('Welcome Aboard!');
+    $flash->setFlash('error', 'Ocorreu um erro inesperado!');   
     return home();
 }
 ```
@@ -87,6 +86,7 @@ $flash->setFlash('error', 'Ocorreu um erro inesperado!');
 </body>
 </html>
 ```
+
 
 
 
