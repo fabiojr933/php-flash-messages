@@ -3,7 +3,7 @@
     "description": "Uma abordagem moderna para mensagens flash baseadas em sessão PHP.",
     "type": "library",
     "require": {
-        "php": ">=8.0"
+        "php": ">=7.4"
     },
     "license": "MIT",
     "autoload": {
