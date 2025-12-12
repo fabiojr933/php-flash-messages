@@ -10,7 +10,7 @@ Comece instalando o pacote via Composer.
 composer require fabiojr933/php-flash-messages
 ```
 
-Em seguida, como mencionado acima, as classes CSS padrão para sua mensagem flash são otimizadas para Bootstrap. Portanto, você pode incorporar o CSS do Bootstrap em seu arquivo HTML ou de layout, ou escrever seu próprio CSS com base nessas classes.
+Sua mensagem flash são otimizadas para Bootstrap. Portanto, você pode incorporar o CSS do Bootstrap em seu arquivo HTML ou de layout, ou escrever seu próprio CSS com base nessas classes.
 
 ### 📋 Pré-requisitos
 
@@ -87,5 +87,6 @@ $flash->setFlash('error', 'Ocorreu um erro inesperado!');
 </body>
 </html>
 ```
+
 
 
