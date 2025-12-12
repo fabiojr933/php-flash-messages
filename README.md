@@ -31,6 +31,17 @@ public function store()
 exemplo no HTML para recuperar as mensagens
 
 ```
+
+<?php
+require 'vendor/autoload.php';
+use Fabiojr933\PhpFlashMessages\Messages;
+$flash = new Messages();
+
+// Criar mensagem para teste
+$flash->setFlash('success', 'Operação realizada com sucesso!');
+$flash->setFlash('error', 'Ocorreu um erro inesperado!');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -76,4 +87,5 @@ exemplo no HTML para recuperar as mensagens
 </body>
 </html>
 ```
+
 
